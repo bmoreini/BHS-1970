@@ -29,6 +29,9 @@ header.entry-header img.wp-post-image {
 	header.entry-header a.post-thumbnail {
 		display:none;
 	}
+	body.page-template-eventbrite-index.single header.entry-header img.wp-post-image {
+		display:none;
+	}
 	header.entry-header h1.entry-title, header.entry-header .entry-meta {
 	width:100%!important;
 		float:left;
@@ -37,7 +40,7 @@ header.entry-header img.wp-post-image {
 }
 
 @media all and (max-width: 550px) {
-	header.entry-header a.post-thumbnail {
+	header.entry-header img.wp-post-image, header.entry-header a.post-thumbnail {
 		display:none;
 	}
 	header.entry-header h1.entry-title {
@@ -100,7 +103,6 @@ footer.entry-footer {
 }
 
 body.page-template-eventbrite-index.single header.entry-header {
-	border:2px solid red;
 	margin-top:100px;
 }
 
