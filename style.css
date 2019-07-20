@@ -1,5 +1,58 @@
-/* Icon */
+/* top logo */
 a.navbar-brand img {
 	width:60px;
 	height:60px;
+}
+
+/* event listing */
+
+/* container */
+header.entry-header {
+	width: calc(100% - 380px);
+	float:left;
+	margin-left:10px;
+	height:380px;
+
+}
+
+/* image */
+header.entry-header img.wp-post-image {
+	width:400px;
+  position:absolute;
+}
+
+/* title */
+header.entry-header h1.entry-title {
+	width: calc(100% - 420px);
+	font-size:24pt;
+	float:right;
+	margin-top:0;
+}
+
+/* details */
+header.entry-header .entry-meta {
+	width: calc(100% - 420px);
+	float:right;
+	clear:right;
+}
+
+
+footer {
+	clear:both;
+}
+
+
+.eventbrite-widget iframe {
+	width:360px;
+	height:370px;
+	float:right;
+}
+
+
+footer.entry-footer {
+  display:none;
+}
+
+body.page-template-eventbrite-index {
+	
 }
