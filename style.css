@@ -15,6 +15,10 @@ header.entry-header {
   clear:left;
 }
 
+header.entry-header span.event-organizer, span.sep {
+	display:none;
+}
+
 /* image */
 header.entry-header img.wp-post-image {
 	width:400px;
@@ -32,13 +36,41 @@ header.entry-header img.wp-post-image {
 	}
 }
 
+@media all and (max-width: 550px) {
+	header.entry-header a.post-thumbnail {
+		display:none;
+	}
+	header.entry-header h1.entry-title {
+   font-size:14pt!important;
+	}
+}
+
 /* title */
 header.entry-header h1.entry-title {
 	width: calc(100% - 420px);
 	font-size:24pt;
 	float:right;
 	margin-top:0;
+	color:#5C5C5C!important;
 }
+
+header.entry-header  a {
+	color:#5C5C5C;
+}
+
+header.entry-header a:hover {
+	text-decoration:none;
+}
+
+header.entry-header .event-details a {
+	color:#4EAE49;
+	font-weight:bold;
+}
+
+header.entry-header a:hover {
+	text-decoration:underline;
+}
+
 
 /* details */
 header.entry-header .entry-meta {
@@ -47,6 +79,10 @@ header.entry-header .entry-meta {
 	clear:right;
 }
 
+header.entry-header span {
+	float:left;
+	clear:left;
+}
 
 footer {
 	clear:both;
@@ -63,6 +99,11 @@ footer.entry-footer {
   display:none;
 }
 
-body.page-template-eventbrite-index {
-	
+body.page-template-eventbrite-index.single header.entry-header {
+	border:2px solid red;
+	margin-top:100px;
+}
+
+body.page-template-eventbrite-index.single .eventbrite-widget iframe  {
+	margin-top:25px;
 }
