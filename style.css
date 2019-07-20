@@ -4,6 +4,13 @@ a.navbar-brand img {
 	height:60px;
 }
 
+/* footer social links */
+
+.social-icons a i {
+	width:10em;
+	height:10em;
+}
+
 /* event listing */
 
 /* container */
