@@ -12,13 +12,24 @@ header.entry-header {
 	float:left;
 	margin-left:10px;
 	height:380px;
-
+  clear:left;
 }
 
 /* image */
 header.entry-header img.wp-post-image {
 	width:400px;
   position:absolute;
+}
+
+@media all and (max-width: 1024px) {
+	header.entry-header a.post-thumbnail {
+		display:none;
+	}
+	header.entry-header h1.entry-title, header.entry-header .entry-meta {
+	width:100%!important;
+		float:left;
+		margin-left:-400px;
+	}
 }
 
 /* title */
@@ -40,7 +51,6 @@ header.entry-header .entry-meta {
 footer {
 	clear:both;
 }
-
 
 .eventbrite-widget iframe {
 	width:360px;
