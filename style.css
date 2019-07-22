@@ -142,3 +142,8 @@ body.page-template-homepage-withheader  a.navbar-brand img {
 body.page-template-homepage-withheader section.header_slideshow {
 	margin-top:-50px
 }
+
+body.page-template-homepage-withheader .event_desc {
+	color:#000;
+	font-size:12px;
+}
