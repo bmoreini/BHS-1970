@@ -106,10 +106,11 @@ footer {
 	float:right;
 }
 
-
 footer.entry-footer {
   display:none;
 }
+
+/* Home Page CSS */
 
 body.page-template-eventbrite-index.single header.entry-header {
 	margin-top:100px;
@@ -117,4 +118,27 @@ body.page-template-eventbrite-index.single header.entry-header {
 
 body.page-template-eventbrite-index.single .eventbrite-widget iframe  {
 	margin-top:25px;
+}
+
+body.page-template-homepage-withheader header .container {
+	display:none;
+}
+
+body.page-template-homepage-withheader header {
+	background-color:transparent;
+	height:50px;
+}
+
+body.page-template-homepage-withheader  nav {
+		height:70px;
+
+	border:none;
+}
+
+body.page-template-homepage-withheader  a.navbar-brand img {
+	margin-top:-10px;
+}
+
+body.page-template-homepage-withheader section.header_slideshow {
+	margin-top:-50px
 }
