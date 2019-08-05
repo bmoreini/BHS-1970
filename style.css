@@ -173,8 +173,26 @@ body.page-template-homepage-withheader .event_desc {
 body.page-template-homepage-withheader iframe .content__monkeyRewards a {
 	display:none!important;
 }
+
 #registernow {
 	width:100%;
 	text-align:center;
 	margin-top:-10px
+}
+
+.header_slideshow.vc_custom_1565036070943 {
+	background-position: top center!important;
+}
+
+.forcebig .col-sm-6.col-md-4{
+	width:90%!important;
+	margin-left:5%!important;
+}
+
+.forcebig .thumbnail, .forcebig .thumbnail:hover {
+	border:none;
+}
+
+.iee_archive .iee_event .event_desc .event_title {
+	font-size:1.4em!important;
 }
