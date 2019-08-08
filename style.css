@@ -200,3 +200,29 @@ body.page-template-homepage-withheader iframe .content__monkeyRewards a {
 span.event-details-text {
 	display:none!important;
 }
+
+.display-posts-listing img {
+	display:none!important;
+}
+
+.display-posts-listing a.title {
+	    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+	  font-size:24pt;
+	  display:block;
+	 margin-bottom: .5em;
+}
+.display-posts-listing {
+	padding-right:50px;
+}
+
+.display-posts-listing span.date {
+	display:block;
+}
+
+.display-posts-listing a.more-link {
+	font-weight:bold;
+	text-align:right;
+	float:right;
+}
