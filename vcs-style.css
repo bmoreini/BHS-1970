@@ -1,0 +1,87 @@
+body.single-tribe_events .tribe-events-single-event-title {
+	display:none;
+}
+
+body.post-type-archive-tribe_events h1.page-title {
+	display:none;
+}
+.entry-meta {
+	display:none;
+}
+
+body.home .tribe-events-title-bar, body.home .tribe-events-header, body.home span.tribe-events-ajax-loading, body.home h2.tribe-events-list-separator-month, body.home nav.tribe-events-nav-pagination {
+	display:none;
+}
+
+body.home .tribe-events-first {
+	margin-top:0px!important;
+	padding-top:0px!important;
+}
+
+.elementor-widget-container h5 {
+	font-size:24pt;
+}
+
+body.home .eael-entry-footer {
+	display:none;
+}
+
+body.home .eael-call-to-action .icon {
+	float:left;
+	padding-left:40px;
+	width:20%;
+}
+body.home .eael-call-to-action .content {
+	float:left;
+	font-size:18pt;
+	text-align:center!important;
+	width:60%;
+	margin:0 auto;
+	padding-top:20px;
+}
+body.home .eael-call-to-action .action {
+	float:left;
+	width:20%;
+	padding-top:20px;
+	padding-right:20px;
+	margin-right:0px;
+}
+
+body.home .eael-call-to-action .action a {
+	text-align:center!important;
+	display:block;
+	float:right;
+	margin-right:0px;
+}
+
+body.home .eael-call-to-action {
+	width:100%;
+}
+
+#can_embed_form_inner h4 {
+	display:none;
+}
+.elementor-element-d08061f {
+	margin-top:25px
+}
+.elementor-element-c562850 {
+  margin-top:10px;
+	height:573px;
+	overflow:hidden;
+	background-color:#ededed;
+}
+
+.freebirdFormviewerViewCenteredContent {
+	width:800px!important;}
+
+.header-social-block ul {
+	display:none;
+}
+
+.header-social-block {
+	height:35px;
+}
+
+body.page-template-contact-template .header-social-block ul {
+	display:block;
+}
