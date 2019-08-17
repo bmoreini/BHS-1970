@@ -79,9 +79,61 @@ body.home .eael-call-to-action {
 }
 
 .header-social-block {
-	height:35px;
+	height:25px;
 }
 
 body.page-template-contact-template .header-social-block ul {
 	display:block;
+}
+
+body.page-template-contact-template .header-social-block {
+	height:35px;
+}
+
+@media all and (max-width: 750px) {
+	body.home .action{ 
+}
+	body.home .elementor-element-b7e388c {
+		display:none;
+	}
+	
+	body.home .icon {
+		display:none;
+	}
+}
+
+@media all and (max-width: 750px) {
+	body.home .action{ 
+}
+	body.home .elementor-element-b7e388c {
+		display:none;
+	}
+	
+	body.home .icon {
+		display:none;
+	}
+	button.menu-toggle {
+		margin-top:-90px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	body.home .action a { 
+		padding:10px!important;
+}
+	body.home .elementor-element-b7e388c {
+		display:none;
+	}
+		button.menu-toggle {
+		margin-top:-90px;
+	}
+	body.home .icon {
+		display:none;
+	}
+	
+	h2.page-title {
+		font-size: 16pt!important;
+		display:block;
+		color:blue;
+	}
 }
